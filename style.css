@@ -1,0 +1,61 @@
+/* Style the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  label {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  select,
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="text"][readonly] {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+  }
+  
+  /* Style the CVSS score result */
+  #cvssScore {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #cvssSeverity {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #attackVectorResult {
+    margin-top: 10px;
+  }
