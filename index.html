@@ -9,47 +9,47 @@
 	<h1>CVSS Calculator</h1>
     <form>
       <h2>Base Metrics</h2>
-      <label for="attackVector"><span class="bi bi-shield-lock"></span> Attack Vector:</label>
+      <label for="attackVector"><i class="bi bi-arrow-right-circle-fill"></i> Attack Vector:</label>
       <select id="attackVector">
         <option value="0.85">Network</option>
         <option value="0.62">Adjacent Network</option>
         <option value="0.55">Local</option>
         <option value="0.2">Physical</option>
       </select><br>
-      <label for="attackComplexity"><span class="bi bi-shield-shaded"></span> Attack Complexity:</label>
+      <label for="attackComplexity"><i class="bi bi-arrow-down-circle-fill"></i> Attack Complexity:</label>
       <select id="attackComplexity">
         <option value="0.77">Low</option>
         <option value="0.44">High</option>
       </select><br>
-      <label for="privilegesRequired"><span class="bi bi-person-lock"></span> Privileges Required:</label>
+      <label for="privilegesRequired"><i class="bi bi-shield-lock-fill"></i> Privileges Required:</label>
       <select id="privilegesRequired">
         <option value="0.85">None</option>
         <option value="0.62">Low</option>
         <option value="0.27">High</option>
       </select><br>
-      <label for="userInteraction"><span class="bi bi-hand-index"></span> User Interaction:</label>
+      <label for="userInteraction"><i class="bi bi-hand-thumbs-up-fill"></i> User Interaction:</label>
       <select id="userInteraction">
         <option value="0.85">None</option>
         <option value="0.62">Required</option>
       </select><br>
-      <label for="scope"><span class="bi bi-eye"></span> Scope:</label>
+      <label for="scope"><i class="bi bi-globe2"></i> Scope:</label>
       <select id="scope">
         <option value="0">Unchanged</option>
         <option value="1">Changed</option>
       </select><br>
-      <label for="confidentiality"><span class="bi bi-shield-lock"></span> Confidentiality:</label>
+      <label for="confidentiality"><i class="bi bi-lock-fill"></i> Confidentiality:</label>
       <select id="confidentiality">
         <option value="0.0">None</option>
         <option value="0.22">Low</option>
         <option value="0.56">High</option>
       </select><br>
-      <label for="integrity"><span class="bi bi-shield-shaded"></span> Integrity:</label>
+      <label for="integrity"><i class="bi bi-shield-check"></i> Integrity:</label>
       <select id="integrity">
         <option value="0.0">None</option>
         <option value="0.22">Low</option>
         <option value="0.56">High</option>
       </select><br>
-      <label for="availability"><span class="bi bi-cloud-sun"></span> Availability:</label>
+      <label for="availability"><i class="bi bi-lightning-fill"></i> Availability:</label>
       <select id="availability">
         <option value="0.0">None</option>
         <option value="0.22">Low</option>
@@ -57,7 +57,7 @@
       </select><br>
 
       <h2>Temporal Metrics</h2>
-      <label for="exploitCodeMaturity">Exploit Code Maturity:</label>
+      <label for="exploitCodeMaturity"><i class="bi bi-graph-up"></i> Exploit Code Maturity:</label>
       <select id="exploitCodeMaturity">
         <option value="">Not Defined</option>
         <option value="0.87">High</option>
@@ -65,7 +65,7 @@
         <option value="1.0">Proof of Concept</option>
         <option value="1.0">Unproven</option>
       </select><br>
-      <label for="remediationLevel">Remediation Level:</label>
+      <label for="remediationLevel"><i class="bi bi-graph-up"></i> Remediation Level:</label>
       <select id="remediationLevel">
         <option value="">Not Defined</option>
         <option value="0.95">Unavailable</option>
@@ -73,7 +73,7 @@
         <option value="0.87">Temporary Fix</option>
         <option value="0.9">Official Fix</option>
       </select><br>
-      <label for="reportConfidence">Report Confidence:</label>
+      <label for="reportConfidence"><i class="bi bi-graph-up"></i> Report Confidence:</label>
       <select id="reportConfidence">
         <option value="">Not Defined</option>
         <option value="1.0">Confirmed</option>
@@ -81,65 +81,65 @@
         <option value="0.92">Unknown</option>
       </select><br>
 	<h2>Environmental Metrics</h2>
-	<label for="confidentialityRequirement">Confidentiality Requirement:</label>
+	<label for="confidentialityRequirement"><i class="bi bi-lock-fill"></i> Confidentiality Requirement:</label>
 	<select id="confidentialityRequirement">
 	  <option value="0.5">Low</option>
 	  <option value="1.0">Medium</option>
 	  <option value="1.51">High</option>
 	</select><br>
-	<label for="integrityRequirement">Integrity Requirement:</label>
+	<label for="integrityRequirement"><i class="bi bi-shield-check"></i> Integrity Requirement:</label>
 	<select id="integrityRequirement">
 	  <option value="0.5">Low</option>
 	  <option value="1.0">Medium</option>
 	  <option value="1.51">High</option>
 	</select><br>
-	<label for="availabilityRequirement">Availability Requirement:</label>
+	<label for="availabilityRequirement"><i class="bi bi-lightning-fill"></i> Availability Requirement:</label>
 	<select id="availabilityRequirement">
 	  <option value="0.5">Low</option>
 	  <option value="1.0">Medium</option>
 	  <option value="1.51">High</option>
 	</select><br>
-	<label for="modifiedAttackVector">Modified Attack Vector:</label>
+	<label for="modifiedAttackVector"><i class="bi bi-arrow-right-circle-fill"></i> Modified Attack Vector:</label>
 	<select id="modifiedAttackVector">
 	  <option value="0.85">Network</option>
 	  <option value="0.62">Adjacent Network</option>
 	  <option value="0.55">Local</option>
 	  <option value="0.2">Physical</option>
 	</select><br>
-	<label for="modifiedAttackComplexity">Modified Attack Complexity:</label>
+	<label for="modifiedAttackComplexity"><i class="bi bi-arrow-down-circle-fill"></i> Modified Attack Complexity:</label>
 	<select id="modifiedAttackComplexity">
 	  <option value="0.77">Low</option>
 	  <option value="0.44">High</option>
 	</select><br>
-	<label for="modifiedPrivilegesRequired">Modified Privileges Required:</label>
+	<label for="modifiedPrivilegesRequired"><i class="bi bi-shield-lock-fill"></i> Modified Privileges Required:</label>
 	<select id="modifiedPrivilegesRequired">
 	  <option value="0.85">None</option>
 	  <option value="0.62">Low</option>
 	  <option value="0.27">High</option>
 	</select><br>
-	<label for="modifiedUserInteraction">Modified User Interaction:</label>
+	<label for="modifiedUserInteraction"><i class="bi bi-hand-thumbs-up-fill"></i> Modified User Interaction:</label>
 	<select id="modifiedUserInteraction">
 	  <option value="0.85">None</option>
 	  <option value="0.62">Required</option>
 	</select><br>
-	<label for="modifiedScope">Modified Scope:</label>
+	<label for="modifiedScope"><i class="bi bi-globe2"></i> Modified Scope:</label>
 	<select id="modifiedScope">
 	  <option value="0">Unchanged</option>
 	  <option value="1">Changed</option>
 	</select><br>
-	<label for="modifiedConfidentiality">Modified Confidentiality:</label>
+	<label for="modifiedConfidentiality"><i class="bi bi-lock-fill"></i> Modified Confidentiality:</label>
 	<select id="modifiedConfidentiality">
 	  <option value="0.0">None</option>
 	  <option value="0.22">Low</option>
 	  <option value="0.56">High</option>
 	</select><br>
-	<label for="modifiedIntegrity">Modified Integrity:</label>
+	<label for="modifiedIntegrity"><i class="bi bi-shield-check"></i> Modified Integrity:</label>
 	<select id="modifiedIntegrity">
 	  <option value="0.0">None</option>
 	  <option value="0.22">Low</option>
 	  <option value="0.56">High</option>
 	</select><br>
-	<label for="modifiedAvailability">Modified Availability:</label>
+	<label for="modifiedAvailability"><i class="bi bi-lightning-fill"></i> Modified Availability:</label>
 	<select id="modifiedAvailability">
 	  <option value="0.0">None</option>
 	  <option value="0.22">Low</option>
@@ -149,11 +149,11 @@
 	<button type="button" onclick="calculateCVSS()">Calculate CVSS Score</button><br><br>
 
 	<h2>CVSS Calculator Results</h2>
-	<label for="cvssScore">CVSS Score:</label>
+	<label for="cvssScore"><i class="bi bi-calculator-fill"></i> CVSS Score:</label>
 	<input type="text" id="cvssScore" readonly><br>
-	<label for="cvssSeverity">CVSS Severity:</label>
+	<label for="cvssSeverity"><i class="bi bi-exclamation-triangle-fill"></i> CVSS Severity:</label>
 	<input type="text" id="cvssSeverity" readonly><br>
-	<label for="attackVectorResult">Attack Vector:</label>
+	<label for="attackVectorResult"><i class="bi bi-arrow-right-circle-fill"></i> Attack Vector:</label>
 	<input type="text" id="attackVectorResult" readonly>
   </form>
 </body>
